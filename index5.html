@@ -1,0 +1,92 @@
+<html>
+<head><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto&family=Tektur:wght@400..900&display=swap" rel="stylesheet"></head>
+<link rel="stylesheet" href="style.css">
+<title>Arm Exercise Picker</title>
+<body id="arm-exercise-picker">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">The Ultimate Health Machine</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><span class="bigger">|</span>Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="index1.html"><span class="bigger">|</span>Improve Your Personal Health: Explained</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+          <span class="bigger">|</span>Health Metrics
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="index2.html">BMI Calculator</a>
+          <a class="dropdown-item" href="index3.html">BPM Calculator</a>
+          <a class="dropdown-item" href="index4.html">Blood Pressure Calculator</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+          <span class="bigger">|</span>Exercise Picker
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="index5.html">Arm Exercise Picker</a>
+          <a class="dropdown-item" href="index6.html">Leg Exercise Picker</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="arm_exercise">
+    <h1>Arm Exercise Picker</h1>
+    <hr>
+    <br>
+    <p>Here, the <i>Arm Exercise Picker</i> will pick two random exercises, and tell you how many of the 2 exercises you need to do. The <i>Arm Exercise Picker</i> will allow you to maintain your exercise schedule without getting bored of doing the same exercise everyday. Below is the list of all the 6 arm exercises.</p>
+    <hr>
+    <br>
+    <ol>
+        <li id="first">Push-Ups</li>
+        <li id="second">Pull-Ups</li>
+        <li id="third">Arm Circles</li>
+        <li id="fourth">Wall Push-Ups</li>
+        <li id="fifth">Push-Downs</li>
+        <li id="sixth">Bicep Curls</li>
+    </ol>
+    <hr>
+    <br>
+    <h3>Instructions</h3>
+    <p>You will need to roll 2 dice[s] first. Next, you will need to enter the number of the first dice and the second dice into the 2 given textboxes.</p>
+    <hr>
+    <br>
+    <div class="dice-container">
+        <div class="dice" id="dice1">⚀</div>
+        <div class="dice" id="dice2">⚀</div>
+    </div>
+    <hr>
+    <button type="button" class="btn btn-primary" onclick="Roll()">Roll Dice</button>
+    <hr>
+    <br>
+    <h3>Enter the dice numbers below.</h3>
+    <p>Dice 1's Number</p>
+    <input type="number" id="1num">
+    <hr>
+    <p>Dice 2's Number</p>
+    <input type="number" id="2num">
+    <hr>
+    <button type="button" class="btn btn-primary" onclick="Exercises1()">Enter</button>
+    <hr>
+    <p id="exercises1"></p>
+    <p id="exercises2"></p>
+</div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

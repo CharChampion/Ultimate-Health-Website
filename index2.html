@@ -1,0 +1,80 @@
+<html>
+<head><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto&family=Tektur:wght@400..900&display=swap" rel="stylesheet"></head>
+<link rel="stylesheet" href="style.css">
+<title>BMI Calculator</title>
+<body id="bmi-calculator">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">The Ultimate Health Machine</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><span class="bigger">|</span>Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="index1.html"><span class="bigger">|</span>Improve Your Personal Health: Explained</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+          <span class="bigger">|</span>Health Metrics
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="index2.html">BMI Calculator</a>
+          <a class="dropdown-item" href="index3.html">BPM Calculator</a>
+          <a class="dropdown-item" href="index4.html">Blood Pressure Calculator</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+          <span class="bigger">|</span>Exercise Picker
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="index5.html">Arm Exercise Picker</a>
+          <a class="dropdown-item" href="index6.html">Leg Exercise Picker</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="bmi">
+    <h1>BMI Calculator</h1>
+    <hr>
+    <br>
+    <h3>What is BMI?</h3>
+    <p>BMI stands for <u>B</u>ody <u>M</u>ass <u>I</u>ndex. A body mass index is used to estimate the body fat of a person. Calculating the BMI of a person can be used to assess potential health risks that a person can possess. A BMI calculator calculates the BMI of a person. </p>
+    <hr>
+    <br>
+    <h3>You can calculate below.</h3>
+    <hr>
+    <br>
+    <p><u>Age:</u></p>
+    <input type="number" id="age1">
+    <hr>
+    <p><u>Height(In Meters):</u></p>
+    <input type="number" id="height1">
+    <hr>
+    <p><u>Weight(In Kilograms):</u></p>
+    <input type="number" id="weight1">
+    <hr>
+    <button type="button" class="btn btn-primary" onclick="BMI_Calculator()">Enter</button>
+    <hr>
+    <p id="BMI"></p>
+    <hr>
+    <p id="warning"></p>
+    <hr>
+    <hr>
+    <p id="disclaimer">This calculator, at any means, is not attempting to be a proven medical calculator/device. This calculator's intended purpose is to be an estimator of BMI for people aged between 20 to 60, which is not supposed to be taken seriously, especially not for any medical purpose. Please contact your local health administrator if you want accurate results.</p>
+</div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

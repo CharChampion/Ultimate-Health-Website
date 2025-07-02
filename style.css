@@ -1,0 +1,128 @@
+body{
+    text-align: center;
+    font-family: "Doto", sans-serif;
+    font-weight:800;
+}
+
+.navbar{
+    color:black;
+}
+
+img{
+    width:300px;
+    border-radius:15px;
+}
+
+.gallery{
+    padding:50px;
+    place-items: center;
+}
+
+.row{
+    gap:22px;
+}
+
+#homepage{
+    background: linear-gradient(180deg, rgb(12, 116, 59), rgb(8, 184, 184));
+}
+
+#personal_health{
+    background: linear-gradient(360deg, rgb(12, 116, 59), rgb(9, 225, 225));
+}
+
+#bmi-calculator{
+    background: linear-gradient(360deg, rgb(12, 116, 59), rgb(9, 225, 225));
+}
+
+#bpm-calculator{
+    background: linear-gradient(360deg, rgb(12, 116, 59), rgb(9, 225, 225));
+}
+
+#bp-calculator{
+    background: linear-gradient(360deg, rgb(12, 116, 59), rgb(9, 225, 225));
+}
+
+#arm-exercise-picker{
+    background: linear-gradient(135deg,#74ebd5,#9face6);;
+}
+
+.health_tips{
+    background-color: white;
+    padding:50px;
+    margin:50px;
+    place-items:center;
+    text-align:center;
+    align-items:baseline;
+    align-self: center;
+    border-radius:15px;
+}
+
+.bmi{
+    background-color: white;
+    padding:50px;
+    margin:50px;
+    place-items:center;
+    text-align:center;
+    align-items:baseline;
+    align-self: center;
+    border-radius:15px;
+}
+
+.bpm{
+    background-color: white;
+    padding:50px;
+    margin:50px;
+    place-items:center;
+    text-align:center;
+    align-items:baseline;
+    align-self: center;
+    border-radius:15px;
+}
+
+.bp{
+    background-color: white;
+    padding:50px;
+    margin:50px;
+    place-items:center;
+    text-align:center;
+    align-items:baseline;
+    align-self: center;
+    border-radius:15px;
+}
+
+.bigger{
+    font-size:x-large;
+}
+
+#disclaimer{
+    font-size: small;
+}
+
+.arm_exercise{
+    background-color: white;
+    padding:50px;
+    margin:50px;
+    place-items:center;
+    text-align:center;
+    align-items:baseline;
+    align-self: center;
+    border-radius:15px;
+}
+
+.dice-container{
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+    margin-bottom:20px;
+}
+
+.dice{
+  font-size:5rem;
+  width:100px;
+  height:100px;
+  display:grid;
+  place-items:center;
+  border-radius:15px;
+  box-shadow:insegt 0 5px 15px rgba(0,0,0,0.1);
+  transition:transform 0.4s ease;
+}
